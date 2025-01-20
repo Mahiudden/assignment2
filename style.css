@@ -415,7 +415,7 @@ html{
     }
     nav{
         border-bottom: 1px solid #FEA301;
-        width: 100%;
+        width: 100vw;
         height: auto;
     }
 
@@ -453,7 +453,7 @@ html{
     .standard-curriculum .main{
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
     }
     .standard-curriculum .main .card{
         grid-template-columns: repeat(1, 1fr);
@@ -531,7 +531,7 @@ html{
         overflow-x: hidden;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 800px){
     nav .container{
         justify-content: space-around;
         width: 100%;
