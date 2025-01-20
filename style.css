@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* background-color: #000; */
+}
+
+.display-none{
+    display: none;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.container .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.container .logo h3{
+    font-family: "Quicksand", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container .nav-items ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    cursor: pointer;
+}
+.container .nav-items ul li{
+    list-style: none;
+}
+.container .nav-items a{
+    text-decoration: none;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+}
+.menu button{
+    border: none;
+    border-radius: 12px;
+}
+.menu button a{
+    text-decoration: none;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#FFFFFF;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background-color: #FEA301;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 90px; */
+}
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hero .container h2{
+    font-family: "Quicksand", serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+.hero .container h2 span{
+    color: #FEA301;
+}
+
+.hero .container p{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero .container button{
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    padding: 10px 26px;
+    color: #FFFFFF;
+    background-color: #000;
+    cursor: pointer;
+}
+.standard-curriculum{
+    background-image: url(./assets/bg.png);
+}
+.standard-curriculum .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.standard-curriculum .main .heading{
+    margin-top: 60px;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    font-size: 46px;
+}
+.standard-curriculum .main .card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.card .card-main{
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 30px 20px;
+    border-radius: 18px;
+}
+.card .card-main h3{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card .card-main p{
+    font-family: "Raleway", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #808080;
+}
+.card  .bg-color{
+    /* background-color: #FEA301; */
+    background-image: linear-gradient(to top,  #FFFFFF, #DEF5FF);
+}
+.card .bg{
+    background-image: linear-gradient(to top,  #FFFFFF, #FFF4DC);
+
+}
+
+.card .card-bg{
+    background-image: linear-gradient(to top,  #FFFFFF, #EEE1FF);
+}
+
+.card .card-main button{
+    border: none;
+    color: #64C8FF;
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.slider i{
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 17px 19px;
+    border-radius: 30px;
+    background-color: #FEA301;
+    margin: 0 10px;
+}
+.stories-main-div{
+    background-image: url(./assets/bg.png);
+    width: 100%;
+    height: auto;
+}
+.stories{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-image: linear-gradient(to top,  #FEA3014D, #FFFFFF4D);
+}
+.stories .heading{
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    font-size: 46px;
+    color: #000;
+}
+.stories .stories-main-card{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 30px;
+
+}
+.stories .stories-main-card .main-card{
+    width: 540px;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+.stories .stories-main-card .main-card .card-div{
+    padding: 30px 20px;
+}
+
+.stories .stories-main-card .main-card button{
+    border: none;
+    color: #FFF;
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #3CD8E8;
+    cursor: pointer;
+    border-radius: 47px;
+    padding: 10px 20px;
+    position: relative;
+    top: -54px;
+}
+.stories .stories-main-card .main-card h3{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: -40px;
+}
+.stories .stories-main-card .main-card p{
+    font-family: "Raleway", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #808080;
+    position: relative;
+    top: -15px;
+}
+
+
+.stories .stories-main-card .main-card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0 0;
+}
+.stories .stories-main-card .main-card-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.main-card-two .card{
+    width: 290px;
+    height: 300px;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+.main-card-two .card .div{
+    padding: 15px 20px;
+}
+.main-card-two .card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 16px 16px 0 0;
+}
+.main-card-two .card button{
+    border: none;
+    color: #FFF;
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #95B226;
+    cursor: pointer;
+    border-radius: 47px;
+    padding: 10px 20px;
+    position: relative;
+    top: -40px;
+}
+.main-card-two .card .blue{
+    background-color: #5D58F0;
+}
+.main-card-two .card h3{
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -30px;
+}
+.stories .view-all button{
+    border: none;
+    color: #FFF;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 60px;
+    margin-bottom: 60px;
+}
+footer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #01ACFD;
+    padding: 60px 0;
+}
+footer .fast{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+    color: #FFF;
+}
+.fast .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.logo h2{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.fast p{
+    font-family: "Quicksand", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sec ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec ul p{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+}
+.sec ul li{
+    list-style: none;
+}
+.sec ul li a{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+}
+footer .third{
+    position: relative;
+    top: -68px;
+}
+footer .third h3{
+    color: #FFF;
+    font-family: "Quicksand", serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+footer .third .icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* -----------media queries---------- */
+
+@media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .display-none{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .menu .Contact{
+        display: none;
+    }
+    nav{
+        border-bottom: 1px solid #FEA301;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo h3{
+        display: none;
+    }
+    nav .container{
+        justify-content: space-around;
+        gap: 200px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    }
+    .hero .container h2{
+        font-family: "Quicksand", serif;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .hero .container h2 span{
+        color: #FEA301;
+    }
+    
+    .hero .container p{
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+    }
+    .standard-curriculum .heading{
+        font-size: 26px;
+    }
+    .standard-curriculum .main{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .standard-curriculum .main .card{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .card{
+        width: 100vw;
+        align-items: center;
+        height: auto;
+        justify-content: center;
+    }
+    .card .card-main{
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .slider{
+        display: none;
+    }
+    .stories-main-div{
+        margin-top: 50px;
+    }
+    .stories-main-card .main-card{
+        display: none;
+    }
+    .stories .stories-main-card .main-card-two{
+        grid-template-columns: repeat(2, .6fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid: 0px;
+        margin: 0 auto;
+    }
+    .stories .stories-main-card .main-card-two .card{
+        width: 96%;
+        height: auto;
+    }
+    .stories .stories-main-card .main-card-two .card .div button{
+        font-weight: 500;
+        font-size: 10px;
+        font-family: "Raleway", serif;
+        padding: 6px 12px;
+        position: relative;
+        top: -32px;
+        background-color: #5D58F0;
+        
+    }
+    .stories .stories-main-card .main-card-two .card .div .blue{
+        background-color: #95B226;
+    } 
+    footer{
+        width: 100vw;
+        height: auto;
+        /* padding: 20px 0; */
+        text-align: start;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+    footer .sec ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        position: relative;
+        top: 20px;
+        right: 110px;
+    }
+    footer .third{
+        position: relative;
+        top: 30px;
+        right: 90px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    nav .container{
+        justify-content: space-around;
+        width: 100%;
+    }
+    nav .container .logo h3{
+        display: none;
+    }
+    nav .container .nav-items ul{
+        gap: 15px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        justify-content: center;
+    }
+    .standard-curriculum .main .card{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .standard-curriculum .main .card .card-main{
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .slider{
+        display: none;
+    }
+    .stories-main-div{
+        margin-top: 60px;
+        width: 100vw;
+    }
+    .stories-main-div .stories-main-card .main-card{
+        display: none;
+    }
+    .stories-main-div .stories-main-card .main-card-two{
+        grid-template-columns: repeat(2, .7fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        row-gap: 5px;
+        margin: 0 auto;
+    }
+    .stories-main-div .stories-main-card .main-card-two .card{
+        width: 99%;
+        height: auto;
+    }
+    footer{
+        width: 100vw;
+        height: auto;
+        /* padding: 20px 0; */
+        text-align: start;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+    footer .sec ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        position: relative;
+        top: 20px;
+        right: 110px;
+    }
+    footer .third{
+        position: relative;
+        top: 30px;
+        right: 90px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
