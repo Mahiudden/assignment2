@@ -232,6 +232,7 @@ nav .container{
 }
 .stories .stories-main-card .main-card .card-div{
     padding: 30px 20px;
+    
 }
 
 .stories .stories-main-card .main-card button{
@@ -244,15 +245,17 @@ nav .container{
     cursor: pointer;
     border-radius: 47px;
     padding: 10px 20px;
-    position: relative;
-    top: -54px;
+    /* position: absolute;
+    top: -5rem; 
+    left: 25rem;
+    z-index: 100; */
 }
 .stories .stories-main-card .main-card h3{
     font-family: "Quicksand", serif;
     font-size: 24px;
     font-weight: 700;
     position: relative;
-    top: -40px;
+    /* top: -40px; */
 }
 .stories .stories-main-card .main-card p{
     font-family: "Raleway", serif;
@@ -261,7 +264,7 @@ nav .container{
     line-height: 24px;
     color: #808080;
     position: relative;
-    top: -15px;
+    /* top: -15px; */
 }
 
 
@@ -269,6 +272,7 @@ nav .container{
     width: 100%;
     height: 50%;
     border-radius: 16px 16px 0 0;
+    position: relative;
 }
 .stories .stories-main-card .main-card-two{
     display: grid;
@@ -299,8 +303,8 @@ nav .container{
     cursor: pointer;
     border-radius: 47px;
     padding: 10px 20px;
-    position: relative;
-    top: -40px;
+    /* position: relative; */
+    /* top: -40px; */
 }
 .main-card-two .card .blue{
     background-color: #5D58F0;
@@ -309,8 +313,8 @@ nav .container{
     font-family: "Quicksand", serif;
     font-size: 16px;
     font-weight: 700;
-    position: relative;
-    top: -30px;
+    /* position: relative;
+    top: -30px; */
 }
 .stories .view-all button{
     border: none;
@@ -499,7 +503,7 @@ html{
         font-family: "Raleway", serif;
         padding: 6px 12px;
         position: relative;
-        top: -32px;
+        /* top: -32px; */
         background-color: #5D58F0;
         
     }
