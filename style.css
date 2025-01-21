@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     width: 100%;
@@ -513,7 +514,7 @@ html{
         /* justify-content: center; */
         flex-direction: column;
     }
-    footer .sec ul{
+    /* footer .sec ul{
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -521,7 +522,7 @@ html{
         position: relative;
         top: 20px;
         right: 110px;
-    }
+    } */
     footer .third{
         position: relative;
         top: 30px;
@@ -589,7 +590,7 @@ html{
         /* justify-content: center; */
         flex-direction: column;
     }
-    footer .sec ul{
+    /* footer .sec ul{
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -597,7 +598,7 @@ html{
         position: relative;
         top: 20px;
         right: 110px;
-    }
+    } */
     footer .third{
         position: relative;
         top: 30px;
